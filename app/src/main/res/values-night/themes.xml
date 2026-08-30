@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark tema ek override'lar (DayNight zaten values-night/colors.xml'i kullanır) -->
+    <style name="Theme.Peek" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/peek_primary</item>
+        <item name="colorPrimaryVariant">@color/peek_primary_dark</item>
+        <item name="colorOnPrimary">@color/peek_on_primary</item>
+        <item name="colorSecondary">@color/peek_accent</item>
+        <item name="colorOnSecondary">@color/peek_on_primary</item>
+        <item name="android:windowBackground">@color/peek_background</item>
+        <item name="android:statusBarColor">@color/peek_primary_dark</item>
+        <item name="android:textColorPrimary">@color/peek_text_primary</item>
+        <item name="android:textColorSecondary">@color/peek_text_secondary</item>
+    </style>
+
+    <style name="Theme.Peek.Splash" parent="Theme.Peek">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Peek marka renkleri (light) -->
+    <color name="peek_primary">#2563EB</color>      <!-- blue-600 -->
+    <color name="peek_primary_dark">#1E40AF</color> <!-- blue-800 -->
+    <color name="peek_accent">#7C3AED</color>       <!-- violet-600 -->
+    <color name="peek_background">#F8FAFC</color>   <!-- slate-50 -->
+    <color name="peek_surface">#FFFFFF</color>
+    <color name="peek_on_primary">#FFFFFF</color>
+    <color name="peek_text_primary">#0F172A</color> <!-- slate-900 -->
+    <color name="peek_text_secondary">#64748B</color> <!-- slate-500 -->
+    <color name="peek_success">#16A34A</color>      <!-- green-600 -->
+    <color name="peek_error">#DC2626</color>        <!-- red-600 -->
+    <color name="peek_warning">#F59E0B</color>      <!-- amber-500 -->
+    <color name="peek_divider">#E2E8F0</color>      <!-- slate-200 -->
+
+    <!-- Eski launcher arka planı (adaptive icon) -->
+    <color name="ic_launcher_background">#1E88E5</color>
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Peek</string>
+    <string name="settings_title">Ayarlar</string>
+
+    <!-- Durum göstergesi -->
+    <string name="status_not_connected">Bağlı değil</string>
+    <string name="status_connected_no_view">Eşleşildi - Görüntü yok</string>
+    <string name="status_generating_code">Kod üretiliyor...</string>
+    <string name="status_connecting">Bağlanıyor...</string>
+    <string name="status_view_active">Görüntü aktif</string>
+    <string name="status_request_sent">İstek gönderildi, bekleniyor...</string>
+    <string name="status_accepted">Kabul edildi, bağlanıyor...</string>
+    <string name="status_rejected">İstek reddedildi</string>
+    <string name="status_stopped">Görüntü durduruldu</string>
+    <string name="status_peer_left">Karşı taraf ayrıldı</string>
+
+    <!-- Butonlar -->
+    <string name="btn_generate_code">Kod Üret</string>
+    <string name="btn_join">Bağlan</string>
+    <string name="btn_request_view">Görüntü İste</string>
+    <string name="btn_stop_view">Görüntüyü Durdur</string>
+    <string name="btn_switch_camera">Kamera</string>
+    <string name="btn_toggle_audio_on">Ses: Açık</string>
+    <string name="btn_toggle_audio_off">Ses: Kapalı</string>
+    <string name="btn_disconnect">Kapat</string>
+    <string name="btn_show_overlay">Overlay\'da Göster</string>
+    <string name="btn_hide_overlay">Overlay\'ı Kapat</string>
+    <string name="btn_save">Kaydet</string>
+
+    <!-- Hint -->
+    <string name="hint_code_input">Eşleşme kodu (6 haneli)</string>
+
+    <!-- Dialog -->
+    <string name="dialog_view_request_title">Görüntü İsteği</string>
+    <string name="dialog_view_request_message">Karşı taraf senin görüntünü görmek istiyor. Kabul ediyor musun?</string>
+    <string name="dialog_accept">Kabul</string>
+    <string name="dialog_reject">Reddet</string>
+
+    <!-- Bildirim -->
+    <string name="notif_view_request_title">Görüntü İsteği</string>
+    <string name="notif_view_request_text">Karşı taraf senin görüntünü görmek istiyor</string>
+    <string name="notif_foreground_text">Kamera paylaşımı aktif</string>
+    <string name="notif_action_stop">Kapat</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_section_connection">Bağlantı</string>
+    <string name="settings_section_appearance">Görünüm</string>
+    <string name="settings_section_overlay">Overlay Pencere</string>
+    <string name="settings_signaling_url">Signaling sunucu URL</string>
+    <string name="settings_turn_url">TURN sunucu URL (opsiyonel)</string>
+    <string name="settings_turn_username">TURN kullanıcı adı</string>
+    <string name="settings_turn_credential">TURN şifre</string>
+    <string name="settings_camera_front">Ön kamera (kapalıysa arka)</string>
+    <string name="settings_dark_mode">Karanlık mod</string>
+    <string name="settings_dark_system">Sistem</string>
+    <string name="settings_dark_light">Açık</string>
+    <string name="settings_dark_dark">Koyu</string>
+    <string name="settings_status_indicator">Durum göstergesi</string>
+    <string name="settings_overlay_size">Varsayılan boyut</string>
+    <string name="settings_overlay_size_small">Küçük</string>
+    <string name="settings_overlay_size_default">Orta</string>
+    <string name="settings_overlay_size_large">Büyük</string>
+    <string name="settings_overlay_alpha">Varsayılan şeffaflık</string>
+
+    <!-- Toast -->
+    <string name="toast_permissions_granted">İzinler verildi, tekrar deneyin</string>
+    <string name="toast_permissions_denied">Kamera ve ses izinleri gerekli</string>
+    <string name="toast_overlay_permission_needed">Overlay izni gerekli. Ayarlardan verip geri dönün.</string>
+    <string name="toast_camera_switched">Kamera değiştirildi</string>
+    <string name="toast_settings_saved">Ayarlar kaydedildi</string>
+    <string name="toast_view_rejected">Görüntü isteği reddedildi</string>
+    <string name="toast_invalid_code">6 haneli kod girin</string>
+    <string name="toast_signaling_url_empty">Signaling URL boş olamaz</string>
+
+    <!-- Hata -->
+    <string name="error_invalid_code">Geçersiz eşleşme kodu</string>
+    <string name="error_peer_connection">PeerConnection oluşturulamadı</string>
+    <string name="error_camera_track">Kamera track oluşturulamadı</string>
+
+    <!-- Overlay -->
+    <string name="overlay_waiting">Görüntü bekleniyor...</string>
+    <string name="overlay_btn_close">X</string>
+    <string name="overlay_btn_size">Boyut</string>
+</resources>
